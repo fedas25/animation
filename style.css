@@ -1,5 +1,6 @@
 body {
     font-family: "Lato", sans-serif;
+    text-transform: uppercase;
 }
 .sidenav {
     height: 100%;
@@ -45,9 +46,6 @@ body {
     }
 }
 
-
-
-
 body {
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
@@ -66,3 +64,52 @@ body {
 		background-position: 0% 50%;
 	}
 }
+
+a {
+	-webkit-transition: all 900ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-moz-transition: all 900ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-ms-transition: all 900ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-o-transition: all 900ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	transition: all 900ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	display: block;
+	margin: 20px auto;
+	max-width: 380px;
+	text-decoration: none;
+	border-radius: 4px;
+	padding: 80px 80px;
+    text-align: center;
+    font-size: 60px;
+}
+
+a.button {
+	color: rgba(0, 0, 0, 0.6);
+	box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 10px inset;
+}
+
+a.button:hover {
+	color: rgba(255, 255, 255, 0.85);
+	box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 120px inset;
+}
+
+
+
+
+.btn {
+    text-align: center;
+    transition: 0.8s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 35px rgb(117, 218, 209);
+    border-radius: 15px;
+   }
+  
+  .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+  
+  .btn-1 {
+    background-image: linear-gradient(to right, #d2f829 0%, #eb8b71 51%, #ffd95b 100%);
+  }
+
+
+  
