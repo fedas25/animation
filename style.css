@@ -1,7 +1,6 @@
 body {
     font-family: "Lato", sans-serif;
 }
-/* боковая панелька */
 .sidenav {
     height: 100%;
     width: 0;
@@ -45,9 +44,10 @@ body {
         font-size: 18px;
     }
 }
-/* боковая панелька */
 
-/* фон */
+
+
+
 body {
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
@@ -66,5 +66,3 @@ body {
 		background-position: 0% 50%;
 	}
 }
-
-/* фон */
